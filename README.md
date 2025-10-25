@@ -36,3 +36,14 @@ Bu komut branchi oluşturur fakat direkt olarka içine giriş yapmaz.
 > git merge branch-ismi
 
 > ÖRN: git merge main YA DA git merge frknecn3/html
+
+
+# Branch silmek için (delete)
+
+> git branch -d tahaserdar/css
+
+
+
+
+
+<!-- ------------------------------ MERGE CONFLICT -->
