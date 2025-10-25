@@ -26,3 +26,13 @@ Bu komut branchi oluşturur fakat direkt olarka içine giriş yapmaz.
 > git checkout branch-ismi(ya da commitid)
 
 > ÖRN: git checkout frknecn3/html
+
+# Hem branch aç hem de anında geçiş yap
+
+> git checkout -b tahaserdar/css
+
+# Başka bir branchin değişikliklerini almak için
+
+> git merge branch-ismi
+
+> ÖRN: git merge main YA DA git merge frknecn3/html
