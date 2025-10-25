@@ -3,7 +3,6 @@ console.log('Öznurun projesi')
 
 console.log("Bu JavaScript TahaSerdar'a aittir.")
 
+// furkanın eklediği kodlar
 
-// taha beyin kodları
-
-console.log("bu satır taha serdar tarafından commitlendi.")
+console.log('bu js furkana ait, sakın silmeyin, conflict olursa bunu kabul edin')
