@@ -32,6 +32,7 @@ Bu komut branchi oluşturur fakat direkt olarka içine giriş yapmaz.
 > git checkout -b tahaserdar/css
 
 # Başka bir branchin değişikliklerini almak için
+# Bu özellik, şuan içinde olduğunuz branche kod ekler, merge yaptığınız branchin kodunda ASLA değişiklik olmaz.
 
 > git merge branch-ismi
 
@@ -47,3 +48,28 @@ Bu komut branchi oluşturur fakat direkt olarka içine giriş yapmaz.
 
 
 <!-- ------------------------------ MERGE CONFLICT -->
+
+# MERGE CONFLICT
+
+MERGE CONFLICT SADECE yeni bir branch açtıktan sonra
+ana branch'e yeni bir commit geldiğinde olur.
+
+main --> oznur/yeni-ozellik
+
+SONRA
+
+main'e yeni commit geldi (taha bey js'i editledi)
+
+SONRA
+
+öznur hanım değişikliklerini bitirdi ve artık merge yapacak
+
+git checkout main
+
+git merge oznur/yeni-ozellik
+
+ÇAKIŞMA OLUR
+
+Ya Taha beyin değişikliklerini kabul ederiz ya da öznur hanımın
+ardından kabul ettiğimiz değişiklikleri tekrardan commitleriz ve öznur hanımın alt branchini sileriz.
+
